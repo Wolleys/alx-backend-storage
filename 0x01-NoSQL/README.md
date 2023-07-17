@@ -307,7 +307,7 @@ case "$1" in
         log_warning_msg "cannot re-read the config file (use restart)."
         ;;
 
-  `*`)
+  *)
         N=/etc/init.d/$NAME
         echo "Usage: $N {start|stop|force-stop|restart|force-reload|status}" >&2
         exit 1
