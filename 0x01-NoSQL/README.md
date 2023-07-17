@@ -109,7 +109,7 @@ Or if `/etc/init.d/mongod` is missing, please find here an example of the file:
 #                    functionality are the goals for the project.
 ### END INIT INFO
 
-```
+
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 DAEMON=/usr/bin/mongod
 DESC=database
@@ -316,7 +316,7 @@ esac
 
 exit 0
 
-
+```
 </details>
 
 ## Use “container-on-demand” to run MongoDB
